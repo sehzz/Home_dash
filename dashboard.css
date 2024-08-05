@@ -1,0 +1,130 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the body */
+    background-color: #333; /* Sets the background color of the body */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    display: flex; /* Uses flexbox for layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100vh; /* Sets the height to 100% of the viewport height */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for theme change */
+}
+
+/* Dark theme body styles */
+body.dark-theme {
+    background-color: #333; /* Dark background color */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Theme toggle button container */
+.theme-toggle {
+    position: absolute; /* Absolute positioning */
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+}
+
+/* Theme toggle button */
+#theme-button {
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: none; /* No border */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+#theme-button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+/* Main content container */
+.main-content {
+    width: 80%; /* Sets the width to 80% of the viewport */
+    max-width: 1200px; /* Sets the maximum width */
+    padding: 20px; /* Adds padding inside the container */
+    background-color: #444; /* Sets the background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    border-radius: 10px; /* Rounds the corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for theme change */
+}
+
+/* Dark theme main content styles */
+body.dark-theme .main-content {
+    background-color: #444; /* Dark background color */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styles */
+h1 {
+    text-align: center; /* Centers the header text */
+    margin-bottom: 20px; /* Adds space below the header */
+}
+
+/* Grid container for devices */
+.devices-grid {
+    display: grid; /* Uses grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Creates responsive columns */
+    gap: 20px; /* Adds space between grid items */
+}
+
+/* Individual device container */
+.device {
+    background-color: #555; /* Sets the background color */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    padding: 20px; /* Adds padding inside the container */
+    text-align: center; /* Centers the text */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for theme change */
+}
+
+/* Dark theme device container styles */
+body.dark-theme .device {
+    background-color: #555; /* Dark background color */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Device header styles */
+.device h2 {
+    margin: 0 0 20px 0; /* Adds space below the header */
+}
+
+/* Container for buttons */
+.button-container {
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-around; /* Distributes space evenly */
+    margin-top: 10px; /* Adds space above the container */
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px; /* Adds padding inside the button */
+    font-size: 16px; /* Sets the font size */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    border: none; /* Removes the default border */
+    background-color: #007bff; /* Sets the background color */
+    color: white; /* Sets the text color */
+    border-radius: 5px; /* Rounds the corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for theme change */
+}
+
+button:hover {
+    background-color: #0056b3; /* Changes background color on hover */
+}
+
+/* Dark theme button styles */
+body.dark-theme button {
+    background-color: #007bff; /* Sets the background color */
+    color: white; /* Sets the text color */
+}
+
+button.up-arrow,
+button.down-arrow {
+    font-size: 24px; /* Sets the font size */
+}
+
+button.hold {
+    font-size: 16px; /* Sets the font size */
+}
+

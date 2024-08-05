@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <button id="theme-button">Toggle Theme</button>
+    </div>
+    <div class="main-content">
+        <h1>My Devices</h1>
+        <div class="devices-grid">
+            <div class="device">
+                <h2>Bedroom</h2>
+                <div class="button-container">
+                    <button class="up-arrow" onclick="buttonUpClicked('Bedroom')">&#x2191;</button>
+                    <button class="hold" onclick="buttonHoldClicked('Bedroom')">Hold</button>
+                    <button class="down-arrow" onclick="buttonDownClicked('Bedroom')">&#x2193;</button>
+                </div>
+            </div>
+            <div class="device">
+                <h2>Bedroom Fenster</h2>
+                <div class="button-container">
+                    <button class="up-arrow" onclick="buttonUpClicked('Bedroom_Fenster')">&#x2191;</button>
+                    <button class="hold" onclick="buttonHoldClicked('Bedroom_Fenster')">Hold</button>
+                    <button class="down-arrow" onclick="buttonDownClicked('Bedroom_Fenster')">&#x2193;</button>
+                </div>
+            </div>
+            <div class="device">
+                <h2>Corridor</h2>
+                <div class="button-container">
+                    <button class="up-arrow" onclick="buttonUpClicked('Corridor')">&#x2191;</button>
+                    <button class="hold" onclick="buttonHoldClicked('Corridor')">Hold</button>
+                    <button class="down-arrow" onclick="buttonDownClicked('Corridor')">&#x2193;</button>
+                </div>
+            </div>
+            <div class="device">
+                <h2>Garage</h2>
+                <div class="button-container">
+                    <button class="up-arrow" onclick="buttonUpClicked('Garage')">&#x2191;</button>
+                    <button class="hold" onclick="buttonHoldClicked('Garage')">Hold</button>
+                    <button class="down-arrow" onclick="buttonDownClicked('Garage')">&#x2193;</button>
+                </div>
+            </div>
+            <div class="device">
+                <h2>Gastezimmer</h2>
+                <div class="button-container">
+                    <button class="up-arrow" onclick="buttonUpClicked('Gastezimmer')">&#x2191;</button>
+                    <button class="hold" onclick="buttonHoldClicked('Gastezimmer')">Hold</button>
+                    <button class="down-arrow" onclick="buttonDownClicked('Gastezimmer')">&#x2193;</button>
+                </div>
+            </div>
+            <div class="device">
+                <h2>Kamin-Fenster</h2>
+                <div class="button-container">
+                    <button class="up-arrow" onclick="buttonUpClicked('KaminFenster')">&#x2191;</button>
+                    <button class="hold" onclick="buttonHoldClicked('KaminFenster')">Hold</button>
+                    <button class="down-arrow" onclick="buttonDownClicked('KaminFenster')">&#x2193;</button>
+                </div>
+            </div>
+            <div class="device">
+                <h2>Kinderzimmer</h2>
+                <div class="button-container">
+                    <button class="up-arrow" onclick="buttonUpClicked('Kinderzimmer')">&#x2191;</button>
+                    <button class="hold" onclick="buttonHoldClicked('Kinderzimmer')">Hold</button>
+                    <button class="down-arrow" onclick="buttonDownClicked('Kinderzimmer')">&#x2193;</button>
+                </div>
+            </div>
+            <div class="device">
+                <h2>Kinderzimmer</h2>
+                <div class="button-container">
+                    <button class="up-arrow" onclick="buttonUpClicked('Kinderzimmer_Fenster')">&#x2191;</button>
+                    <button class="hold" onclick="buttonHoldClicked('Kinderzimmer_Fenster')">Hold</button>
+                    <button class="down-arrow" onclick="buttonDownClicked('Kinderzimmer_Fenster')">&#x2193;</button>
+                </div>
+            </div>
+            
+            <div class="device">
+                <h2>Kitchen</h2>
+                <div class="button-container">
+                    <button class="up-arrow" onclick="buttonUpClicked('Kitchen')">&#x2191;</button>
+                    <button class="hold" onclick="buttonHoldClicked('Kitchen')">Hold</button>
+                    <button class="down-arrow" onclick="buttonDownClicked('Kitchen')">&#x2193;</button>
+                </div>
+            </div>
+            <div class="device">
+                <h2>Living room</h2>
+                <div class="button-container">
+                    <button class="up-arrow" onclick="buttonUpClicked('LivingRoom')">&#x2191;</button>
+                    <button class="hold" onclick="buttonHoldClicked('LivingRoom')">Hold</button>
+                    <button class="down-arrow" onclick="buttonDownClicked('LivingRoom')">&#x2193;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
