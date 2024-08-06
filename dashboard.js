@@ -88,3 +88,45 @@ function F3() {
     });
     
 }
+function S1() {
+    fetch(`http://127.0.0.1:8181/rollingshutter/v1/open/3685`, {
+        method: 'GET'
+    });
+    fetch(`http://127.0.0.1:8181/rollingshutter/v1/open/17850`, {
+        method: 'GET'
+    });
+    fetch(`http://127.0.0.1:8181/rollingshutter/v1/open/4619`, {
+        method: 'GET'
+    });
+    fetch(`http://127.0.0.1:8181/rollingshutter/v1/open/1854`, {
+        method: 'GET'
+    });
+}
+function S2() {
+    fetch(`http://127.0.0.1:8181/rollingshutter/v1/stop/3685`, {
+        method: 'GET'
+    });
+    fetch(`http://127.0.0.1:8181/rollingshutter/v1/stop/17850`, {
+        method: 'GET'
+    });
+    fetch(`http://127.0.0.1:8181/rollingshutter/v1/stop/4619`, {
+        method: 'GET'
+    });
+    fetch(`http://127.0.0.1:8181/rollingshutter/v1/stop/1854`, {
+        method: 'GET'
+    });
+}
+function S3() {
+    fetch(`http://127.0.0.1:8181/rollingshutter/v1/close/3685`, {
+        method: 'GET'
+    });
+    fetch(`http://127.0.0.1:8181/rollingshutter/v1/close/17850`, {
+        method: 'GET'
+    });
+    fetch(`http://127.0.0.1:8181/rollingshutter/v1/close/4619`, {
+        method: 'GET'
+    });
+    fetch(`http://127.0.0.1:8181/rollingshutter/v1/close/1854`, {
+        method: 'GET'
+    });
+}
