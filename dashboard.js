@@ -1,20 +1,15 @@
-// Select the theme toggle button
-const themeButton = document.getElementById('theme-button');
 
-// Add an event listener for the theme toggle button
-themeButton.addEventListener('click', () => {
-    // Toggle the 'dark-theme' class on the body element
-    document.body.classList.toggle('dark-theme');
-});
 
 // Device variables
 const devices = {
     Bedroom: 1854,
+    Bedroom_Fenster: 4619,
     Corridor: 7355,
     Garage: 12648,
     Gastezimmer: 10661,
     KaminFenster: 9088,
-    Kinderzimmer: 9406,
+    Kinderzimmer: 17850,
+    Kinderzimmer_Fenster: 3685,
     Kitchen: 9405,
     LivingRoom: 12908
 };
