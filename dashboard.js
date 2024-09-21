@@ -16,14 +16,14 @@ const devices = {
 
 // Function for the up button
 function buttonUpClicked(device) {
-    fetch(`http://127.0.0.1:8181/rollingshutter/v1/open/${devices[device]}`, {
+    fetch(`http://192.168.178.51:8181/rollingshutter/v1/open/${devices[device]}`, {
         method: 'GET'
     });
 }
 
 // Function for the hold button
 function buttonHoldClicked(device) {
-    fetch(`http://127.0.0.1:8181/rollingshutter/v1/stop/${devices[device]}`, {
+    fetch(`http://192.168.178.51:8181/rollingshutter/v1/stop/${devices[device]}`, {
         method: 'GET'
     });
 }
